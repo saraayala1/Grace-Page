@@ -1,31 +1,42 @@
 .App {
+  background-image: url("throne.webp");
+  background-repeat: no-repeat;
+  font-family: "Indie Flower", cursive;
+  height: 100%;
   text-align: center;
+  width: 100%;
 }
-
+.App h1,
+.App a,
+.App a:visited {
+  color: rgb(73, 1, 73);
+  font-size: 65px;
+}
+.App a:hover {
+  text-decoration: underline;
+}
 .App-logo {
+  color: purple;
   height: 40vmin;
   pointer-events: none;
 }
+.bg {
+  background-image: url("throne.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  padding-bottom: 50vh;
+}
 
+body,
+html {
+  height: 100%;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 @keyframes App-logo-spin {
